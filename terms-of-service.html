@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Banzen – Terms of Service</title>
+    <style>
+        :root {
+          --bg: #0f0f11;
+          --surface: #1a1a1f;
+          --border: #2a2a32;
+          --accent: #f5a623;
+          --text: #e8e8ee;
+          --muted: #888899;
+          --heading: #ffffff;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+          background: var(--bg);
+          color: var(--text);
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.75;
+          padding: 48px 24px 96px;
+        }
+
+        .container {
+          max-width: 720px;
+          margin: 0 auto;
+        }
+
+        header {
+          border-bottom: 1px solid var(--border);
+          padding-bottom: 32px;
+          margin-bottom: 40px;
+        }
+
+        .app-label {
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          color: var(--accent);
+          margin-bottom: 10px;
+        }
+
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          color: var(--heading);
+          margin-bottom: 8px;
+        }
+
+        .meta {
+          font-size: 14px;
+          color: var(--muted);
+        }
+
+        h2 {
+          font-size: 1.1rem;
+          font-weight: 700;
+          color: var(--heading);
+          margin-top: 44px;
+          margin-bottom: 12px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        h2::before {
+          content: '';
+          display: inline-block;
+          width: 4px;
+          height: 18px;
+          background: var(--accent);
+          border-radius: 2px;
+          flex-shrink: 0;
+        }
+
+        p { margin-bottom: 14px; }
+        p:last-child { margin-bottom: 0; }
+
+        ul {
+          padding-left: 20px;
+          margin-bottom: 14px;
+        }
+
+        ul li { margin-bottom: 6px; }
+
+        .card {
+          background: var(--surface);
+          border: 1px solid var(--border);
+          border-radius: 10px;
+          padding: 20px 24px;
+          margin-top: 16px;
+        }
+
+        .card p:last-child { margin-bottom: 0; }
+
+        .highlight {
+          background: var(--surface);
+          border-left: 3px solid var(--accent);
+          border-radius: 0 8px 8px 0;
+          padding: 14px 20px;
+          margin: 16px 0;
+          font-size: 15px;
+        }
+
+        .disclaimer-grid {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-top: 16px;
+        }
+
+        .disclaimer-item {
+          background: var(--surface);
+          border: 1px solid var(--border);
+          border-radius: 10px;
+          padding: 16px 20px;
+          display: flex;
+          gap: 14px;
+          align-items: flex-start;
+        }
+
+        .disclaimer-item .icon {
+          font-size: 20px;
+          flex-shrink: 0;
+          margin-top: 2px;
+        }
+
+        .disclaimer-item .content .label {
+          font-weight: 600;
+          color: var(--heading);
+          font-size: 15px;
+          margin-bottom: 4px;
+        }
+
+        .disclaimer-item .content .desc {
+          font-size: 14px;
+          color: var(--muted);
+          margin: 0;
+        }
+
+        .contact-block {
+          background: var(--surface);
+          border: 1px solid var(--border);
+          border-radius: 10px;
+          padding: 20px 24px;
+          margin-top: 16px;
+        }
+
+        .contact-block a {
+          color: var(--accent);
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        .contact-block a:hover { text-decoration: underline; }
+
+        footer {
+          margin-top: 64px;
+          padding-top: 24px;
+          border-top: 1px solid var(--border);
+          font-size: 13px;
+          color: var(--muted);
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <p class="app-label">Banzen App</p>
+        <h1>Terms of Service</h1>
+        <p class="meta">Effective date: March 16, 2025 &nbsp;·&nbsp; Last updated: March 16, 2025</p>
+    </header>
+
+    <p>
+        These Terms of Service ("Terms") govern your use of <strong>Banzen</strong> (the "App"),
+        a travel companion application developed and operated by <strong>Aristide LAUGA</strong>
+        trading as <strong>Banzen</strong> ("we", "us", "our"). By downloading or using the App,
+        you agree to be bound by these Terms. If you do not agree, please do not use the App.
+    </p>
+
+    <!-- 1. Acceptance -->
+    <h2>1. Acceptance of Terms</h2>
+
+    <p>
+        By accessing or using Banzen, you confirm that you are at least 13 years of age, that
+        you have read and understood these Terms, and that you agree to be bound by them.
+        If you are under 18, you confirm that you have obtained parental or guardian consent
+        where required by applicable law.
+    </p>
+    <p>
+        These Terms constitute a legally binding agreement between you and Aristide LAUGA
+        under French law.
+    </p>
+
+    <!-- 2. Description of Service -->
+    <h2>2. Description of the App</h2>
+
+    <p>
+        Banzen is a travel companion app that provides three core features:
+    </p>
+
+    <ul>
+        <li><strong>Weather</strong> — real-time local weather data powered by Apple WeatherKit.</li>
+        <li><strong>Translation</strong> — text translation powered by Google Cloud Translation API.</li>
+        <li><strong>Currency Converter</strong> — live exchange rates powered by fxRates API.</li>
+    </ul>
+
+    <p>
+        The App is currently provided free of charge. We reserve the right to introduce
+        optional paid features or in-app purchases in future versions, which will always be
+        clearly disclosed prior to any charge.
+    </p>
+
+    <!-- 3. Eligibility -->
+    <h2>3. Eligibility & Age Requirements</h2>
+
+    <p>
+        You must be at least 13 years old to use Banzen, in accordance with Apple App Store
+        guidelines. By using the App, you represent and warrant that you meet this age
+        requirement. We do not knowingly allow users under 13 to access the App.
+    </p>
+
+    <!-- 4. Acceptable Use -->
+    <h2>4. Acceptable Use</h2>
+
+    <p>You agree to use Banzen only for lawful purposes and in accordance with these Terms. You agree not to:</p>
+
+    <ul>
+        <li>Use the App in any way that violates applicable French, European, or international laws or regulations.</li>
+        <li>Attempt to reverse engineer, decompile, or extract the source code of the App.</li>
+        <li>Use the App to transmit any content that is unlawful, harmful, offensive, or infringes on the rights of any third party.</li>
+        <li>Interfere with or disrupt the integrity or performance of the App or its third-party services.</li>
+        <li>Use automated means (bots, scrapers) to interact with the App or its underlying APIs.</li>
+        <li>Attempt to gain unauthorized access to any system or network connected to the App.</li>
+    </ul>
+
+    <!-- 5. Disclaimers -->
+    <h2>5. Disclaimers & Limitations of Liability</h2>
+
+    <p>
+        Banzen is provided <strong>"as is"</strong> and <strong>"as available"</strong>, without
+        warranties of any kind, whether express or implied. We make no guarantee that the App
+        will be uninterrupted, error-free, or fully accurate at all times.
+    </p>
+
+    <div class="disclaimer-grid">
+        <div class="disclaimer-item">
+            <span class="icon">🌤️</span>
+            <div class="content">
+                <p class="label">Weather data</p>
+                <p class="desc">Weather information is sourced from Apple WeatherKit and is provided for general informational purposes only. It must not be relied upon for safety-critical decisions, emergency planning, aviation, or any activity where inaccurate data could cause harm.</p>
+            </div>
+        </div>
+        <div class="disclaimer-item">
+            <span class="icon">💱</span>
+            <div class="content">
+                <p class="label">Currency rates</p>
+                <p class="desc">Exchange rates are sourced from fxRates API and are indicative only. They are not financial advice and must not be used as the sole basis for financial, investment, or commercial decisions. Always verify rates with a licensed financial institution before transacting.</p>
+            </div>
+        </div>
+        <div class="disclaimer-item">
+            <span class="icon">🌐</span>
+            <div class="content">
+                <p class="label">Translations</p>
+                <p class="desc">Translations are generated by Google Cloud Translation API and may be imperfect, incomplete, or contextually inaccurate. They must not be used for legal documents, medical instructions, official correspondence, or any situation where precision is critical.</p>
+            </div>
+        </div>
+        <div class="disclaimer-item">
+            <span class="icon">⚙️</span>
+            <div class="content">
+                <p class="label">Service availability</p>
+                <p class="desc">Banzen depends on third-party APIs (Apple WeatherKit, Google Translate, fxRates API). If any of these services experience outages, degraded performance, or discontinuation, features of the App may be temporarily or permanently unavailable. We are not liable for such disruptions.</p>
+            </div>
+        </div>
+    </div>
+
+    <p style="margin-top: 20px;">
+        To the fullest extent permitted by French and European law, Aristide LAUGA shall not
+        be liable for any indirect, incidental, special, consequential, or punitive damages
+        arising out of or related to your use of, or inability to use, the App.
+    </p>
+
+    <!-- 6. Intellectual Property -->
+    <h2>6. Intellectual Property</h2>
+
+    <p>
+        All content, design, code, graphics, logos, and branding within Banzen — including
+        the name "Banzen" — are the exclusive property of Aristide LAUGA and are protected
+        by French and international intellectual property laws.
+    </p>
+    <p>
+        You are granted a limited, non-exclusive, non-transferable, revocable licence to use
+        the App for personal, non-commercial purposes only. This licence does not include the
+        right to copy, modify, distribute, sell, or sublicense any part of the App.
+    </p>
+
+    <!-- 7. Third-Party Services -->
+    <h2>7. Third-Party Services</h2>
+
+    <p>
+        Banzen integrates with the following third-party services, each governed by their own
+        terms and privacy policies:
+    </p>
+
+    <ul>
+        <li><strong>Apple WeatherKit</strong> — subject to Apple's Terms of Service.</li>
+        <li><strong>Google Cloud Translation API</strong> — subject to Google's Terms of Service and API usage policies.</li>
+        <li><strong>fxRates API</strong> — subject to fxratesapi.com's Terms of Service.</li>
+    </ul>
+
+    <p>
+        We are not responsible for the content, accuracy, availability, or practices of any
+        third-party service. Links or integrations with third-party services do not constitute
+        an endorsement.
+    </p>
+
+    <!-- 8. App Store Terms -->
+    <h2>8. Apple App Store</h2>
+
+    <p>
+        Banzen is distributed through the Apple App Store. Your use of the App is also subject
+        to Apple's Terms and Conditions. In the event of any conflict between these Terms and
+        Apple's terms, Apple's terms shall prevail with respect to App Store-related matters.
+    </p>
+
+    <div class="highlight">
+        Apple is not a party to these Terms and bears no responsibility for the App or its
+        content. Apple has no obligation to provide maintenance or support for Banzen.
+    </div>
+
+    <!-- 9. Modifications -->
+    <h2>9. Modifications to the App & Terms</h2>
+
+    <p>
+        We reserve the right to modify, suspend, or discontinue the App or any of its features
+        at any time without prior notice. We may also update these Terms from time to time.
+        The "Last updated" date at the top of this page will reflect any changes. Continued
+        use of the App after changes are posted constitutes your acceptance of the revised Terms.
+    </p>
+    <p>
+        If we make material changes, we will make reasonable efforts to notify you via an
+        in-app notice or App Store update notes.
+    </p>
+
+    <!-- 10. Termination -->
+    <h2>10. Termination</h2>
+
+    <p>
+        These Terms remain in effect for as long as you use the App. You may stop using Banzen
+        at any time by deleting it from your device. We reserve the right to suspend or
+        terminate access to the App for any user who violates these Terms, without prior notice.
+    </p>
+
+    <!-- 11. Governing Law -->
+    <h2>11. Governing Law & Dispute Resolution</h2>
+
+    <p>
+        These Terms are governed by and construed in accordance with the laws of
+        <strong>France</strong>, without regard to its conflict of law provisions.
+    </p>
+    <p>
+        In the event of a dispute arising from or relating to these Terms or the use of the
+        App, the parties agree to first attempt to resolve the matter amicably by contacting
+        us at the address below. If no resolution is reached within 30 days, the dispute shall
+        be subject to the exclusive jurisdiction of the competent courts of France.
+    </p>
+    <p>
+        If you are a consumer resident in the European Union, you also have the right to submit
+        a complaint through the EU Online Dispute Resolution platform at
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener"
+           style="color: var(--accent);">ec.europa.eu/consumers/odr</a>.
+    </p>
+
+    <!-- 12. Severability -->
+    <h2>12. Severability</h2>
+
+    <p>
+        If any provision of these Terms is found to be invalid or unenforceable under
+        applicable law, that provision shall be modified to the minimum extent necessary to
+        make it enforceable, and the remaining provisions shall continue in full force and effect.
+    </p>
+
+    <!-- 13. Contact -->
+    <h2>13. Contact</h2>
+
+    <p>
+        For any questions, concerns, or notices regarding these Terms, please contact:
+    </p>
+
+    <div class="contact-block">
+        <p><strong>Aristide LAUGA</strong> — trading as Banzen</p>
+        <p style="margin-top: 8px;">📧 <a href="mailto:banzen@proton.me">banzen@proton.me</a></p>
+        <p style="margin-top: 8px; font-size: 14px; color: var(--muted);">
+            We aim to respond to all inquiries within 7 business days.
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2025 Aristide LAUGA — Banzen. All rights reserved.
+    </footer>
+
+</div>
+</body>
+</html>
